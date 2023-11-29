@@ -27,7 +27,7 @@ Provide step-by-step instructions for installing and setting up the project.
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/milecap/RFR_NS_pipelines
 
 
 ## Usage
