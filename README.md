@@ -10,6 +10,7 @@ Stimulus-Induced Rotary Saturation imaging of visually evoked neuroelectric resp
 - [Installation]
 - [Usage]
 - [Folder Structure]
+- [Output]
 - [Contributing]
 - [License]
 
@@ -27,7 +28,7 @@ Provide step-by-step instructions for installing and setting up the project.
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/milecap/RFR_NS_pipelines
+   git clone https://github.com/yourusername/yourproject.git
 
 
 ## Usage
@@ -53,10 +54,15 @@ Subjects_folder
 			->	SLon
 				->	func
 
+## Output
+Both the RFR and NS file will create an output folder inside each Sub_n folder. 
+Additionaly, running the visualization or statistical analysis will create an output folder in the Subjects_folder that sumarises the statistical outputs.
+
 
 ## Contributing
 Please feel free to let me know if you find a bug or suggestions to improve the code/analysis!
 
 ## License
+
 
 
