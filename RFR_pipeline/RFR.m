@@ -1,5 +1,19 @@
 function RFR(func_path,seg_path,out_dir,cutoff,name)
 
+% This function runs the regression, filtering and rectification steps to
+% the functional data series
+
+% Author: Milena Capiglioni
+
+% Feel free to use the software and report any bugs!
+% If you use this pipeline for a publication
+% Please cite this function as:
+% Capiglioni M. 
+
+
+
+
+
 func_data = load_nii(func_path);
 func_data = double(func_data.img);
 seg_data = load_nii(seg_path);

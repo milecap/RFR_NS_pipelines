@@ -1,3 +1,11 @@
+% Author: Milena Capiglioni, University of Bern
+% Contact: milena.capiglioni@extern.insel.ch
+% Last Modification: Nov.2023
+
+% If you use/modify this code for your future publication, please cite the
+% corresponding article
+
+
 function RFR_statistical(Subjects_folder,RFR_folder,ROI)
 
 % RFR statistical analysis
@@ -69,7 +77,7 @@ for sub = 1:length(subjects)
         % Define mask in ROI for noStim and VisStim data
         mask_noStim = zeros(size(noStim.seg_data));
         mask_VisStim = zeros(size(VisStim.seg_data));
-        switch ROI
+        switch ROI % numbers defined according to Destrieux atlas
             case 'V1'
                 mask_noStim(noStim.seg_data == 11143) = 1;% V1 left side
                 mask_noStim(noStim.seg_data == 12143) = 1;% V1 rigth side

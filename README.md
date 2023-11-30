@@ -1,18 +1,13 @@
 # RESL-SIRS postprocessing analysis
 
-The shared code can be used to generate the figures of the publication:
+This code generates the figures and results presented in the publication:
 Stimulus-Induced Rotary Saturation imaging of visually evoked neuroelectric response: preliminary results and data analysis
 
-
-
-## Table of Contents
-- [Requirements]
-- [Installation]
-- [Usage]
-- [Folder Structure]
-- [Output]
-- [Contributing]
-- [License]
+# Visual-stimulation Dataset
+The dataset used for the study can be accessed through the link: https://mb-neuro.medical-blocks.ch/shared/folder/4947b990-8f5a-11ee-aeab-37c16cf6fc6b
+Note: After registering, the data repository will allow you to download the dataset. In reason for download please state:
+"Dataset for the paper: Stimulus-Induced Rotary Saturation imaging of visually evoked neuroelectric response: preliminary results and data analysis"
+Due to our data sharing policies, the high-resolution images cannot be made available, instead, the low-resolution coregistered data is shared.
 
 ## Requirements
 - MATLAB R2021a or later
@@ -24,8 +19,6 @@ The violin_2 function is a slightly modified version of the originally published
 
 
 ## Installation
-Provide step-by-step instructions for installing and setting up the project.
-
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/yourproject.git
@@ -39,30 +32,27 @@ For both cases, you might change the cutoff of the highpass filter (default 0.1 
 ## Folder Structure
 The shared data structure has the form
 Subjects_folder
--> 	Sub_n
-	->	data
-		->	noStim
-			->	SLoff
-				->	anat
-				->	func
-			->	SLon
-				->	anat
-				->	func
-		->	VisStim
-			->	SLoff
-				->	func
-			->	SLon
-				->	func
+|-- Sub_n
+    |-- data
+        |-- noStim
+            |-- SLoff
+                |-- anat
+                |-- func
+            |-- SLon
+                |-- anat
+                |-- func
+        |-- VisStim
+            |-- SLoff
+                |-- func
+            |-- SLon
+                |-- func
 
 ## Output
 Both the RFR and NS file will create an output folder inside each Sub_n folder. 
 Additionaly, running the visualization or statistical analysis will create an output folder in the Subjects_folder that sumarises the statistical outputs.
 
-
 ## Contributing
-Please feel free to let me know if you find a bug or suggestions to improve the code/analysis!
-
-## License
+Please feel free to let me know if you find a bug or you have suggestions to improve the code/analysis!
 
 
 
