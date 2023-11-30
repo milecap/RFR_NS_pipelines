@@ -1,10 +1,11 @@
 # RESL-SIRS postprocessing analysis
 
 This code generates the figures and results presented in the publication:
-Stimulus-Induced Rotary Saturation imaging of visually evoked neuroelectric response: preliminary results and data analysis
+Stimulus-Induced Rotary Saturation imaging of visually evoked neuroelectric response: preliminary results and data analysis (currently under review)
 
 ## Visual-stimulation Dataset
 The dataset used for the study can be accessed through the link: https://mb-neuro.medical-blocks.ch/shared/folder/4947b990-8f5a-11ee-aeab-37c16cf6fc6b
+
 Note: After registering, the data repository will allow you to download the dataset. In reason for download please state:
 "Dataset for the paper: Stimulus-Induced Rotary Saturation imaging of visually evoked neuroelectric response: preliminary results and data analysis"
 Due to our data sharing policies, the high-resolution images cannot be made available, instead, the low-resolution coregistered data is shared.
@@ -12,7 +13,8 @@ Due to our data sharing policies, the high-resolution images cannot be made avai
 ## Requirements
 - MATLAB R2021a or later
 
-All the functions used to run the pipeline are included in the shared folder or are available matlab toolboxes. 
+All the functions used to run the pipeline are included in the shared folder or are available Matlab toolboxes. 
+
 The violin_2 function is a slightly modified version of the originally published by 
 % Hoffmann H, 2015: violin_2.m - Simple violin_2 plot using matlab default kernel
 % density estimation. INRES (University of Bonn), Katzenburgweg 5, 53115 Germany. 
