@@ -1,5 +1,18 @@
-function NS(func_off,func_on,seg_off,out_dir,cutoff,name)
+% This function runs the Normalize substraction to
+% the functional data series (+ high pass filtering)
 
+% Author: Milena Capiglioni, University of Bern
+% Contact: milena.capiglioni@extern.insel.ch
+% Last update: Nov.2023
+
+% Feel free to use the software and report any bugs!
+% If you use/modify this code for your future publication, please cite the
+% corresponding article:  "Stimulus-Induced Rotary Saturation imaging of
+% visually evoked neuroelectric response: preliminary results and data
+% analysis" (currently under review)
+
+
+function NS(func_off,func_on,seg_off,out_dir,cutoff,name)
 
 func_off = load_nii(func_off);
 func_off = double(func_off.img);

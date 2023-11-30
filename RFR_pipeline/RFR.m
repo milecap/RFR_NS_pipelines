@@ -1,18 +1,17 @@
-function RFR(func_path,seg_path,out_dir,cutoff,name)
-
 % This function runs the regression, filtering and rectification steps to
 % the functional data series
 
-% Author: Milena Capiglioni
+% Author: Milena Capiglioni, University of Bern
+% Contact: milena.capiglioni@extern.insel.ch
+% Last update: Nov.2023
 
 % Feel free to use the software and report any bugs!
-% If you use this pipeline for a publication
-% Please cite this function as:
-% Capiglioni M. 
+% If you use/modify this code for your future publication, please cite the
+% corresponding article:  "Stimulus-Induced Rotary Saturation imaging of
+% visually evoked neuroelectric response: preliminary results and data
+% analysis" (currently under review)
 
-
-
-
+function RFR(func_path,seg_path,out_dir,cutoff,name)
 
 func_data = load_nii(func_path);
 func_data = double(func_data.img);

@@ -1,3 +1,19 @@
+%% NS prepare pipeline
+%This main file will call the the neccessary routines to generate the NS
+%results of the publication: "Stimulus-Induced Rotary Saturation imaging of
+%visually evoked neuroelectric response: preliminary results and data
+%analysis" (currently under review)
+
+% Author: Milena Capiglioni, University of Bern
+% Contact: milena.capiglioni@extern.insel.ch
+% Last update: Nov.2023
+
+% If you use/modify this code for your future publication, please cite the
+% corresponding article
+
+
+
+%%
 clear global; clc; clear; close all;
 
 % Add utils folder to the path

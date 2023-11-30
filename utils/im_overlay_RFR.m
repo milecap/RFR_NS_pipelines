@@ -1,3 +1,7 @@
+% Author: Milena Capiglioni, University of Bern
+% Contact: milena.capiglioni@extern.insel.ch
+% Last update: Nov.2023
+
 function [min_s,max_s,aux_max,norm_min,norm_max] = im_overlay_RFR(Yoff,contrast,mask,min_s,max_s,aux_max,norm_min,norm_max,ax) 
 
 gray_im = Yoff;

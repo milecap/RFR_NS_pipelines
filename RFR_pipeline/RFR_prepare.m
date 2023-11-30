@@ -1,5 +1,5 @@
 %% RFR prepare pipeline
-%This main file will call all the neccessary routines to generate the
+%This main file will call all the neccessary routines to generate the RFR
 %results of the publication: "Stimulus-Induced Rotary Saturation imaging of
 %visually evoked neuroelectric response: preliminary results and data
 %analysis" (currently under review)

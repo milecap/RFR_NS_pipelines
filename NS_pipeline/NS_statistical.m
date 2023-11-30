@@ -1,3 +1,13 @@
+% Author: Milena Capiglioni, University of Bern
+% Contact: milena.capiglioni@extern.insel.ch
+% Last update: Nov.2023
+
+% If you use/modify this code for your future publication, please cite the
+% corresponding article:  "Stimulus-Induced Rotary Saturation imaging of
+%visually evoked neuroelectric response: preliminary results and data
+%analysis" (currently under review)
+
+
 function NS_statistical(Subjects_folder,NS_folder,ROI)
 % NS statistical analysis
 
