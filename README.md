@@ -21,7 +21,7 @@ The violin_2 function is a slightly modified version of the originally published
 ## Installation
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/milecap/RFR_NS_pipelines.git
 
 
 ## Usage
